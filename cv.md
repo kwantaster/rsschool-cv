@@ -1,6 +1,6 @@
 # Tatsiana Kvandzel
 
-##My contacts
+## My contacts
 **Phone:**  +375296862096
 
 **E-mail:** kwantaster@gmail.com
@@ -9,17 +9,17 @@
 
 **Location:**  Minsk, Belarus
 
-##About me
+## About me
 I worked as a teacher at a university, a chief accountant in a company, a software implementation specialist, a business analyst, 1C developer (russian database management system for management and accounting). I have always loved and knew how to study. I believe that gaining new knowledge is one of the great joys in life. And programming is one of the areas of knowledge that I like the most. And I like to keep up with the times. That's why I chose web development. This is the most dynamically growing and wide field of activity in the modern world.
 
-##Skills
-+JavaScript (basic, in process)
-+Git (remote service GitHub)
-+VS Code
-+Windows OS
-+1C
+## Skills
++ JavaScript (basic, in process)
++ Git (remote service GitHub)
++ VS Code
++ Windows OS
++ 1C
 
-##Code Example
+## Code Example
 ```
 function likes(names) {
   let ammas = names.length;
@@ -31,19 +31,19 @@ function likes(names) {
 }
 ```
 
-##Experience
-+1C
+## Experience
++ 1C
 
-##Education
-+**__University__**
-     +Belarusian National TecBhnical University, Engineer/Economist
-     +Belarusian National TecBhnical University, Postgraduate specialty economics
-     +Belarusian National TecBhnical University,International Institute for Distance Education, Programmer (__unfinished__)
-+**__Courses__**
-     +Design course
+## Education
++ **__University__**
+     + Belarusian National TecBhnical University, Engineer/Economist
+     + Belarusian National TecBhnical University, Postgraduate specialty economics
+     + Belarusian National TecBhnical University,International Institute for Distance Education, Programmer (__unfinished__)
++ **__Courses__**
+     + Design course
 
-##Languages
-     +Russian (nativ)
-     +Belorussian (nativ)
-     +Portugues (intermediate) in process
-     +English (A2) in process
+## Languages
+     + Russian (nativ)
+     + Belorussian (nativ)
+     + Portugues (intermediate) in process
+     + English (A2) in process
