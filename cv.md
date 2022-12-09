@@ -35,15 +35,15 @@ function likes(names) {
 + 1C
 
 ## Education
-+ **__University__**
-     + Belarusian National TecBhnical University, Engineer/Economist
-     + Belarusian National TecBhnical University, Postgraduate specialty economics
-     + Belarusian National TecBhnical University,International Institute for Distance Education, Programmer (__unfinished__)
-+ **__Courses__**
++ **_University_**
+     + Belarusian National Technical University, Engineer/Economist
+     + Belarusian National Technical University, Postgraduate specialty economics
+     + Belarusian National Technical University, International Institute for Distance Education, Programmer (_unfinished_)
++ **_Courses_**
      + Design course
 
 ## Languages
-     + Russian (nativ)
-     + Belorussian (nativ)
-     + Portugues (intermediate) in process
-     + English (A2) in process
+ + Russian (_nativ_)
+ + Belorussian (_nativ_)
+ + Portugues (_intermediate_) in process
+ + English (_A2_) in process
