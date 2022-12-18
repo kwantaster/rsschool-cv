@@ -1,1 +1,1 @@
-# rsschool-cv
+https://kwantaster.github.io/rsschool-cv/
