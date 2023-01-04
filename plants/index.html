@@ -1,25 +1,200 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Plants</title>
-    <link rel="icon" href="./assets/img/logo_vector.svg">
+    <link rel="icon" href="./assets/img/favicon.svg">
 
   </head>
   <body>
     <header class="header">
+        <div class="navbar">
+            <div class="logo-info">
+                <p class="logo">Plants</p>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#welcome" class="black-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-us" class="black-link">
+                            About us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="black-link">
+                            Service
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#price" class="black-link">
+                            Price
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="black-link">
+                            Contacts
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="main">
+        <div class="container">
+            <section class="welcome" id="welcome">
+                <div class="welcome-image">
+                    <img class="leaves" src="./assets/img/leafs.png" alt="Leaves">
+                </div>
+                <div class="welcome-info">
+                    <h1 class="welcome-header">
+                        We grow<span class="text-green"> plants </span>and give you oxygen
+                    </h1>
+                    <p class="welcome-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
+                    <button class="button-start" onclick="document.location='#about-us'">
+                        LEARN MORE
+                    </button>
+                </div>
+            </section>
+            <section class="about-us" id="about-us">
+                <div class="about-us-info">
+                    <h2 class="about-us-header">
+                        We are<span class="text-ginger"> professional experienced </span>gardeners
+                    </h2>
+                    <p class="about-us-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+                        into electronic typesetting, remaining essentially unchanged. 
+                    </p>
+                </div>
+                <div class="about-us-image">
+                    <img class="houseplant1" src="./assets/img/houseplant1.png" alt="Houseplant">
+                </div>
+            </section>
+            <section class="service" id="service">
+                <div class="service-head">
+                    <h2 class="service-header">Service and our projects</h2>
+                    <div class="service-buttons">
+                        <button class="button-usual">
+                            Gardens
+                        </button>
+                        <button class="button-usual">
+                            Lawn
+                        </button>
+                        <button class="button-usual">
+                            Planting
+                        </button>
+                    </div>
+                </div>
+                <div class="services">
+                    <div class="service-item" id="garden">
+                        <img class="service-img" src="./assets/img/garden_care.png" alt="">
+                        <div>
+                        <h4 class="service-item-header">Garden care</h4>
+                        <p class="service-item-text">Lorem Ipsum has been the industry</p></div>
+                    </div>
+                    <div class="service-item" id="planting">
+                        <img class="service-img" src="./assets/img/planting.png" alt="">
+                        <h4 class="service-item-header">Planting</h4>
+                        <p class="service-item-text">Lorem Ipsum has been the industry</p> 
+                    </div>
+                    <div class="service-item" id="lawn">
+                        <img class="service-img" src="./assets/img/lawn_care.png" alt="">
+                        <h4 class="service-item-header">Lawn care</h4>
+                        <p class="service-item-text">Lorem Ipsum has been the industry</p>
+                    </div>
+                    <div class="service-item" id="planting">
+                        <img class="service-img" src="./assets/img/planting2.png" alt="">
+                        <h4 class="service-item-header">Planting</h4>
+                        <p class="service-item-text">Lorem Ipsum has been the industry</p>
+                    </div>
+                    <div class="service-item" id="garden">
+                        <img class="service-img" src="./assets/img/garden_care2.png" alt="">
+                        <h4 class="service-item-header">Garden care</h4>
+                        <p class="service-item-text">Lorem Ipsum has been the industry</p>
+                    </div>
+                    <div class="service-item" id="planting">
+                        <img class="service-img" src="./assets/img/planting3.png" alt="">
+                        <h4 class="service-item-header">Planting</h4>
+                        <p class="service-item-text">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+            </section>
+            <section class="price" id="price">
+                <div class="prices">
+                    <h2 class="price-header">
+                        Prices
+                    </h2>
+                    <ul class="price-list">
+                        <li class="price-item">Basics</li>
+                        <li class="price-item">Standard</li>
+                        <li class="price-item">Pro care</li>
+                    </ul>
+                </div>
+                <div class="help-you"> 
+                    <h2 class="help-you-header">
+                        Our best<span class="text-green"> gardeners </span>are ready to help you
+                    </h2>
+                    <button class="button-usual" onclick="document.location='#contacts'">
+                         Contact us
+                    </button> 
+                    <div>
+                        <img class="help-you-img" src="./assets/img/leafs_small.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="contacts" id="contacts">
+                <div class="wrapper">
+                    <img src="./assets/img/contact_woman1.png" alt="">
+                    <div>
+                    <div>
+                        <h2 class="contacts-header">Contact us</h2>
+                    </div>
+                    <div class="contacts-select">
+                        <form>
+                            <select>
+                                <option>Canandaigua, NY</option>
+                                <option>New York City</option>
+                                <option>Yonkers, NY</option>
+                                <option>Sherrill, NY</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer class="footer">
       <div class="footer-box">
-        <span>© 2022</span>
-        <a class="section-link" href="https://github.com/kwantaster">Tatiana Kvandel</a>
-        <a href="https://rs.school/js/" class="rss">
-          <img class="rss" src="./assets/img/rs_school_js.svg" alt="RSSCHOOL JS">
+        <span class="footer-text">©  2022</span>
+        <a class="black-link-footer" href="https://github.com/kwantaster">
+            github
         </a>
+        <a href="https://rs.school/js-stage0/" class="black-link-footer">
+            Rolling Scopes School
+        </a>
+        <ul class="social-list">
+            <li class="social-item">
+                <img class="social-img" src="./assets/img/inst1.svg" alt="instagram">
+            </li>
+            <li class="social-item">
+               <img class="social-img" src="./assets/img/fb1.svg" alt="fb">
+            </li>
+            <li class="social-item">
+                <img class="social-img" src="./assets/img/twitter.svg" alt="twitter">
+            </li>
+            <li class="social-item">
+                <img class="social-img" src="./assets/img/pinterest.svg" alt="pinterest">
+            </li>
+        </ul>
       </div>
     </footer>
   </body>
